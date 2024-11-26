@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online-Store</title>
+    <style>
+      * {
+        margin: 0px;
+      }
+
+      .container {
+        background-color: white;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        background-color: hsl(35, 100%, 50%);
+      }
+      .row {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(238, 179, 130);
+      }
+      .box {
+        background-color: #ff9359;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 25px;
+        text-align: center;
+      }
+      img {
+  border-radius: 5%;
+}
+
+      li {
+        display:inline-block;
+        padding: 10px;
+        font-size: larger;
+      }
+      a{
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .row2 {
+        display: flex;
+        /* justify-content: left; */
+        padding-left:40px;
+        background-color: rgb(238, 179, 130);
+
+      }
+      .text1 {
+        margin: 20px;
+        font-size: 30px;
+        font-style: italic;
+        padding:40px;
+        background-color: rgb(250, 242, 230);
+        border-radius: 15px 50px 30px 5px;
+      }
+      .row3 {
+        display: flex;
+        /* justify-content: center; */
+        padding-right:40px;
+        background-color:rgb(238, 179, 130) ;
+      }
+      #bt{
+        background-color: lightsalmon;
+        border-radius: 25px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div><h1>Online Store</h1></div>
+        <div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="box">
+          <img src="/assets/images/1.png" />
+          <h2>Product 1</h2>
+          <p>This is the description of the product.</p>
+          <h3>Rs 230</h3>
+          <button id="bt">Add to Cart</button>
+        </div>
+        <div class="box">
+          <img src="/assets/images/2.png" />
+          <h2>Product 2</h2>
+          <p>This is the description of the product.</p>
+          <h3>Rs 200</h3>
+          <button id="bt">Add to Cart</button>
+        </div>
+        <div class="box">
+          <img src="/assets/images/3.png" />
+          <h2>Product 3</h2>
+          <p>This is the description of the product.</p>
+          <h3>Rs 375</h3>
+          <button id="bt">Add to Cart</button>
+        </div>
+      </div>
+      <div class="row2">
+          <div class="box">
+            <img src="/assets/images/4.png" id="img"/>
+          </div>
+        <div class="text1">
+         <h3>Drinking Mugs!!</h3>
+         <br>
+         <p>A drinking cup, usually cylindrical in shape, having a handle, and often of a heavy substance, as earthenware.
+the quantity it holds.the face<br>the mouthan exaggerated facial expression; grimace, as in acting.a thug, ruffian, or other criminal.British Slang. a gullible person; dupe; fool.</p>
+<br><h4>Comments</h4>
+        </div>
+
+      </div>
+      <div class ="row3">
+        <div class="text1">
+            <h3>StarBucks Coffee!!!</h3>
+            <br>
+            <p>A drinking cup, usually cylindrical in shape, having a handle, and often of a heavy substance, as earthenware.
+   the quantity it holds.the face<br>the mouthan exaggerated facial expression; grimace, as in acting.a thug, ruffian, or other criminal.British Slang. a gullible person; dupe; fool.</p>
+            <br><h4>Comments</h4>
+           </div>
+        <div class="box">
+            <img src="/assets/images/5.png" id="img"/>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
